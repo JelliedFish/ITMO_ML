@@ -25,7 +25,7 @@ def normalize(dataset, minmax):
 
 
 def Normalization(dataset):
-    mx = minmax(dataset.values)
+    mx = minmax(dataset)
     normalized_dataset = normalize(dataset.values, mx)
 
     return normalized_dataset
