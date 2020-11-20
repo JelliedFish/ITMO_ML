@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 import seaborn as sb
 import matplotlib.pyplot as plt
-from Labs.Lab1.F_score import F_score
-from Labs.Lab1.NonparametricRegression import kNN_Naive, kNN_One_Hot
-from Labs.Lab1.Normalization import Normalization
-from Labs.Lab1.PrepareDataset import getNaive, getOne_Hot
-from Labs.Lab1.getCSV import getCSV
+from Labs.KNN.F_score import F_score
+from Labs.KNN.NonparametricRegression import kNN_Naive, kNN_One_Hot
+from Labs.KNN.Normalization import Normalization
+from Labs.KNN.PrepareDataset import getNaive, getOne_Hot
+from Labs.KNN.getCSV import getCSV
 
 
 def hyper(dataset, dataset_for_naive, dataset_for_one_hot, N, M):

@@ -79,13 +79,6 @@ def cosine(u):
     else:
         return 0
 
-
-# Core_END
-
-
-# Distance_START
-
-
 def distance(d, x1, x2):
     return {
         d == 'euclidean': euclidean(x1, x2),

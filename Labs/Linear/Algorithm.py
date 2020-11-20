@@ -5,8 +5,8 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 
-from Labs.Lab2.Normalization import Normalization
-from Labs.Lab2.etc.ETC import bestT
+from Labs.Linear.Normalization import Normalization
+from Labs.Linear.etc.ETC import bestT
 
 
 def draw(ans, ans_x):
