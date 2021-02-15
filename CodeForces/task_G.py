@@ -76,7 +76,7 @@ def G():
             first_layer += "0.0 "
         first_layer += "-0.5"
         print(first_layer)
-
+#
 
 def bin(n, l):
     b = ""
